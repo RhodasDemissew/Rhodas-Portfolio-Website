@@ -61,3 +61,20 @@
 }
 
 .section-kicker{font-weight:500}
+
+/* Quiet image and repository controls */
+.image-hint{right:12px;bottom:12px;padding:6px 9px;font-size:11px;font-weight:600;background:rgba(29,85,88,.84);box-shadow:none}
+.project-art:hover .image-hint,.project-art:focus-visible .image-hint{background:#1d5558;transform:none}
+.project-repo{margin-top:18px;padding:8px 11px;font-size:13px;font-weight:700;gap:4px}
+.project-repo .social-icon{width:16px;height:16px}
+.project-repo .arrow{margin-left:2px}
+.image-dialog-bar{padding:8px 12px}
+.image-dialog-bar button{display:grid;place-items:center;width:30px;height:30px;padding:0;font-size:22px;font-weight:400;line-height:1;background:#e5eee8;color:#244f51}
+.image-dialog-bar button:hover{background:#d2e3db;color:#153e40}
+.image-hint{display:grid;place-items:center;width:34px;height:34px;padding:0;border:0;border-radius:5px;font-size:18px;cursor:zoom-in}
+.image-hint .arrow{margin:0}
+.project-art{cursor:default}
+.project-art:hover .image-hint{background:rgba(29,85,88,.84)}
+.image-hint:hover,.image-hint:focus-visible{background:#123e41!important}
+.project-art:focus-visible{outline:none}
+.image-hint .zoom-icon{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
