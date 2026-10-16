@@ -66,7 +66,7 @@ export const services = [
 ] as const;
 
 export const experience = [
-  { period: 'Feb 2026 — Present', role: 'Full-Stack Developer', organization: 'Systems Edge Solutions', description: 'Developing ASP.NET Core and React applications and APIs for social security pension processing.' },
+  { period: 'Feb 2026 — Present', role: 'Full-Stack Developer', organization: 'Systems Edge Solutions', description: 'Developing social security pension applications and APIs with ASP.NET Core and React. Architected an Nx microfrontend platform using Webpack Module Federation with independent domains and shared runtime configuration. Implemented CQRS with MediatR pipelines and DTOs to separate API controllers from business logic and align frontend remotes.' },
   { period: 'Jul 2025 — Present', role: 'LMS Developer', organization: 'E-Camel Education / EthioEducation', description: 'Maintaining Moodle-based learning platforms, with customization, troubleshooting, and system support.' },
   { period: 'Aug 2025 — Feb 2026', role: 'Full-Stack Developer', organization: 'DAFTech Social ICT Solutions', description: 'Built and maintained enterprise applications with .NET 8, Angular, EF Core, and SQL Server.' }
 ] as const;

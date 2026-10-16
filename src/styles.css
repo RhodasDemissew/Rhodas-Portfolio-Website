@@ -33,3 +33,31 @@
 .form-status:not(:empty){margin:14px 0 0;font-size:14px;font-weight:700;color:#1d5558}
 
 .site-header .header-inner{justify-content:flex-end}
+
+
+/* Hero, headings, and contact details */
+.hero-identity{width:max-content;max-width:100%;text-align:center}
+.hero .eyebrow{display:block;text-align:center}
+.portrait-frame img{transition:transform .3s ease}
+.portrait-frame:hover img{transform:scale(1.04)}
+.section h2{font-size:clamp(38px,4vw,58px);font-weight:800;line-height:1.14}
+.section-kicker{font-size:14px;font-weight:800}
+.contact-call{display:flex;flex-direction:column;align-items:flex-start;gap:5px;margin-top:28px;padding:16px 0;border-top:1px solid #b3cac0;border-bottom:1px solid #b3cac0}
+.contact-call>span{font-size:12px;letter-spacing:.1em;text-transform:uppercase;font-weight:800;color:#4d7772}
+.contact-call .contact-phone{margin:0;color:#1b5557;font-family:Manrope,sans-serif;font-size:clamp(19px,2vw,25px);font-weight:800}
+.contact-socials{margin-top:26px}
+@media(max-width:700px){.section h2{font-size:clamp(34px,8vw,46px)}.section-kicker{font-size:13px}.hero-identity{width:100%}}
+
+/* Spacious section scale */
+.section h2{font-size:clamp(38px,4vw,58px);font-weight:800;line-height:1.14}
+.section-kicker{font-size:16px;font-weight:900;letter-spacing:.12em;margin-bottom:20px}
+.intro{min-height:100svh;display:flex;align-items:center}
+.intro>.container{width:min(1180px,calc(100% - 64px))}
+@media(max-width:700px){
+  .section h2{font-size:clamp(34px,8vw,46px)}
+  .section-kicker{font-size:14px}
+  .intro{min-height:0}
+  .intro>.container{width:min(1180px,calc(100% - 40px))}
+}
+
+.section-kicker{font-weight:500}
